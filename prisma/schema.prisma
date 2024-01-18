@@ -1,0 +1,56 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  // shadowDatabaseUrl = env("DATABASE_URL")
+}
+
+model Client {
+  id                   Int       @id @default(autoincrement())
+  name                 String
+  itemPurchasedCount  Int @default(0)
+  totalPurchaseAmount Int @default(0)
+  totalDiscountAmount  Int @default(0)
+  totalOrders         Int @default(0)
+  createdAt            DateTime  @default(now())
+  modifiedAt           DateTime  @default(now())
+  carts                Cart[]
+  usedDiscounts Discount[] @relation("DiscountUsedBy")
+}
+
+model Cart {
+  id        Int      @id @default(autoincrement())
+  clientId  Int
+  item      Int
+  quantity  Int
+  itemId     Item     @relation(fields: [item], references: [id])
+  client     Client   @relation(fields: [clientId], references: [id])
+
+}
+
+model Discount {
+  id           Int      @id @default(autoincrement())
+  code         String   @unique
+  percent      Int      @default(10)
+  usedById     Int
+  isUsed       Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  modifiedAt   DateTime @default(now())
+
+  usedBy       Client  @relation("DiscountUsedBy", fields: [usedById], references: [id])
+}
+
+model Item {
+  id        Int      @id @default(autoincrement())
+  name      String
+  price     Int
+  Cart     Cart[]
+  createdAt DateTime @default(now())
+  modifiedAt DateTime @default(now())
+}

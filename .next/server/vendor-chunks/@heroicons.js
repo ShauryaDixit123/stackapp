@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@heroicons";
+exports.ids = ["vendor-chunks/@heroicons"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/@heroicons/react/16/solid/esm/XMarkIcon.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@heroicons/react/16/solid/esm/XMarkIcon.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n\nfunction XMarkIcon({ title, titleId, ...props }, svgRef) {\n    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", Object.assign({\n        xmlns: \"http://www.w3.org/2000/svg\",\n        viewBox: \"0 0 16 16\",\n        fill: \"currentColor\",\n        \"aria-hidden\": \"true\",\n        \"data-slot\": \"icon\",\n        ref: svgRef,\n        \"aria-labelledby\": titleId\n    }, props), title ? /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"title\", {\n        id: titleId\n    }, title) : null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n        d: \"M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z\"\n    }));\n}\nconst ForwardRef = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(XMarkIcon);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQGhlcm9pY29ucy9yZWFjdC8xNi9zb2xpZC9lc20vWE1hcmtJY29uLmpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQStCO0FBQy9CLFNBQVNDLFVBQVUsRUFDakJDLEtBQUssRUFDTEMsT0FBTyxFQUNQLEdBQUdDLE9BQ0osRUFBRUMsTUFBTTtJQUNQLE9BQU8sV0FBVyxHQUFFTCxnREFBbUIsQ0FBQyxPQUFPTyxPQUFPQyxNQUFNLENBQUM7UUFDM0RDLE9BQU87UUFDUEMsU0FBUztRQUNUQyxNQUFNO1FBQ04sZUFBZTtRQUNmLGFBQWE7UUFDYkMsS0FBS1A7UUFDTCxtQkFBbUJGO0lBQ3JCLEdBQUdDLFFBQVFGLFFBQVEsV0FBVyxHQUFFRixnREFBbUIsQ0FBQyxTQUFTO1FBQzNEYSxJQUFJVjtJQUNOLEdBQUdELFNBQVMsTUFBTSxXQUFXLEdBQUVGLGdEQUFtQixDQUFDLFFBQVE7UUFDekRjLEdBQUc7SUFDTDtBQUNGO0FBQ0EsTUFBTUMsMkJBQWFmLDZDQUFnQixDQUFDQztBQUNwQyxpRUFBZWMsVUFBVUEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL21vdmllX2FwcC8uL25vZGVfbW9kdWxlcy9AaGVyb2ljb25zL3JlYWN0LzE2L3NvbGlkL2VzbS9YTWFya0ljb24uanM/MTVjOCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgKiBhcyBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmZ1bmN0aW9uIFhNYXJrSWNvbih7XG4gIHRpdGxlLFxuICB0aXRsZUlkLFxuICAuLi5wcm9wc1xufSwgc3ZnUmVmKSB7XG4gIHJldHVybiAvKiNfX1BVUkVfXyovUmVhY3QuY3JlYXRlRWxlbWVudChcInN2Z1wiLCBPYmplY3QuYXNzaWduKHtcbiAgICB4bWxuczogXCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiLFxuICAgIHZpZXdCb3g6IFwiMCAwIDE2IDE2XCIsXG4gICAgZmlsbDogXCJjdXJyZW50Q29sb3JcIixcbiAgICBcImFyaWEtaGlkZGVuXCI6IFwidHJ1ZVwiLFxuICAgIFwiZGF0YS1zbG90XCI6IFwiaWNvblwiLFxuICAgIHJlZjogc3ZnUmVmLFxuICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IHRpdGxlSWRcbiAgfSwgcHJvcHMpLCB0aXRsZSA/IC8qI19fUFVSRV9fKi9SZWFjdC5jcmVhdGVFbGVtZW50KFwidGl0bGVcIiwge1xuICAgIGlkOiB0aXRsZUlkXG4gIH0sIHRpdGxlKSA6IG51bGwsIC8qI19fUFVSRV9fKi9SZWFjdC5jcmVhdGVFbGVtZW50KFwicGF0aFwiLCB7XG4gICAgZDogXCJNNS4yOCA0LjIyYS43NS43NSAwIDAgMC0xLjA2IDEuMDZMNi45NCA4bC0yLjcyIDIuNzJhLjc1Ljc1IDAgMSAwIDEuMDYgMS4wNkw4IDkuMDZsMi43MiAyLjcyYS43NS43NSAwIDEgMCAxLjA2LTEuMDZMOS4wNiA4bDIuNzItMi43MmEuNzUuNzUgMCAwIDAtMS4wNi0xLjA2TDggNi45NCA1LjI4IDQuMjJaXCJcbiAgfSkpO1xufVxuY29uc3QgRm9yd2FyZFJlZiA9IFJlYWN0LmZvcndhcmRSZWYoWE1hcmtJY29uKTtcbmV4cG9ydCBkZWZhdWx0IEZvcndhcmRSZWY7Il0sIm5hbWVzIjpbIlJlYWN0IiwiWE1hcmtJY29uIiwidGl0bGUiLCJ0aXRsZUlkIiwicHJvcHMiLCJzdmdSZWYiLCJjcmVhdGVFbGVtZW50IiwiT2JqZWN0IiwiYXNzaWduIiwieG1sbnMiLCJ2aWV3Qm94IiwiZmlsbCIsInJlZiIsImlkIiwiZCIsIkZvcndhcmRSZWYiLCJmb3J3YXJkUmVmIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@heroicons/react/16/solid/esm/XMarkIcon.js\n");
+
+/***/ })
+
+};
+;
